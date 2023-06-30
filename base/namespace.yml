@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: kanatatestfluxresource
-  labels:
-    gwcp.guidewire.com/app-name: flux-test
