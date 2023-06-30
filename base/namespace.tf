@@ -7,10 +7,10 @@ terraform {
   }
 }
 
-provider "kubernetes" {
-  kubeconfig = "/Users/rnayak/.kube/config"
-  context    = "k3d-flux-test"
-}
+# provider "kubernetes" {
+#   kubeconfig = "/Users/rnayak/.kube/config"
+#   context    = "k3d-flux-test"
+# }
 
 variable "namespace_name" {
   description = "Name of the Kubernetes namespace to create"
